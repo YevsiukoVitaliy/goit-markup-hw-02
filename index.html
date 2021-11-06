@@ -5,45 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка сайта-->
 <header>
         <nav>
-        <a href="/">WebStudio</a >
-        <ul>
+        <a class="web-nav" href="./index.html">Web<span class="studio-nav">Studio</span> </a >
+        <ul class="navigation">
             <li>
-                <a href="">Студия</a>
+                <a class="link-nav-focus-hover link-nav link-current" href="/studio/index.html">Студия</a>
             </li>
             <li>
-                <a href="">Портфолио</a>
+                <a class="link-nav-focus-hover link-nav" href="/portfolio/portfolio.html">Портфолио</a>
             </li>
             <li>
-                <a href="">Контакты</a>
+                <a class="link-nav-focus-hover link-nav" href="#team">Контакты</a>
             </li>
         </ul>
         </nav>  
-        <ul>
+        <ul class="navigation-adress">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link-nav-focus-hover address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link-nav-focus-hover address-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
 </header>
     <!--Секция блок заказа услуги-->
 <main> 
     <section>
-    <div>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+    <div class="section-color">
+        <h1>Эффективные решения <br>для вашего бизнеса</h1>
+        <button type="button" class="btn-service">Заказать услугу</button>
     </div>
     </section>
     <!--Секция занятия и планирования-->
     <section>
-        <h2>Занятия и планирования</h2>
-        <ul>
+        <h2 class="h2-classes-and-planning">Занятия и планирования</h2>
+        <ul class="section-classes-and-planning">
             <li>
                 <h3>Внимание к деталям</h3>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -63,8 +67,8 @@
         </ul>
     </section>
     <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+        <h2 class="h2-what-are-we-doing">Чем мы занимаемся</h2>
+        <ul class="imeges-what-are-we-doing">
             <li>
                 <img src="./imeges/develop1.jpg" alt="develop1" width="370">
             </li>
@@ -78,15 +82,15 @@
     </section>
     <!--Секция команды-->
     <section>
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="command">Наша команда</h2>
+        <ul class="command-section">
             <li>
                 <img src="./imeges/employee1.jpg" alt="employee1" width="270">
                 <h3>Игорь Демьяненко</h3>
                 <p>Product Designer</p>
             </li>
             <li>
-                <img src="./imeges/employee2.jpg" alt="employee2" width="270">
+                <img src="./imeges/employee4.jpg" alt="employee2" width="270">
                 <h3>Ольга Репина</h3>
                 <p>Frontend Developer</p>
             </li>
@@ -96,7 +100,7 @@
                 <p>Marketing</p>
             </li>
             <li>
-                <img src="./imeges/employee4.jpg" alt="employee4" width="270">
+                <img src="./imeges/employee2.jpg" alt="employee4" width="270">
                 <h3>Михаил Ермаков</h3>
                 <p>UI Designer</p>
             </li>
@@ -105,9 +109,9 @@
 </main>   
     <!--Подвал сайта-->
 <footer>
-    <a href="/">WebStudio</a >
+    <a class="web-nav" href="/">Web<span class="studio-nav">Studio</span></a >
     <address>
-    <ul>
+    <ul  class="footer-address">
         <li>
             <a href="https://goo.gl/maps/7n5ivLZafYZ2Yxqt9">г. Киев, пр-т Леси Украинки, 26</a>
         </li>
