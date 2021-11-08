@@ -5,113 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudio</title>
-  <link rel="stylesheet" href="./css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка сайта-->
 <header>
         <nav>
-        <a href="/">WebStudio</a >
-        <ul>
+        <a class="web-nav" href="./index.html">Web<span class="studio-nav">Studio</span> </a >
+        <ul class="navigation">
             <li>
-                <a href="">Студия</a>
+                <a class="link-nav-focus-hover link-nav link-current" href="/studio/index.html">Студия</a>
             </li>
             <li>
-                <a href="">Портфолио</a>
+                <a class="link-nav-focus-hover link-nav" href="/portfolio/portfolio.html">Портфолио</a>
             </li>
             <li>
-                <a href="">Контакты</a>
+                <a class="link-nav-focus-hover link-nav" href="#team">Контакты</a>
             </li>
         </ul>
         </nav>  
-        <ul>
+        <ul class="navigation-adress">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link-nav-focus-hover address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link-nav-focus-hover address-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
 </header>
-    <!--Секция блок подтипа -->
+    <!--Секция блок заказа услуги-->
 <main> 
     <section>
-    <div>
-        <h1>Блок подтипа</h1>
-        <button type="button">Заказать услугу</button>
+    <div class="section-list-items">
+        <h1>Выбор элементов подтипа портфолио WebStudio</h1>
+        <button type="button" class="btn-all">Все</button>
+        <button type="button" class="btn-web-sites">Веб-сайты</button>
+        <button type="button" class="btn-annexes">Приложения</button>
+        <button type="button" class="btn-design">Дизайн</button>
+        <button type="button" class="btn-marketing">Маркетинг</button>
     </div>
     </section>
     <!--Секция занятия и планирования-->
-    <section>
-        <h2>Занятия и планирования</h2>
-        <ul>
-            <li>
-                <h3>Внимание к деталям</h3>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-            </li>
-            <li>
-                <h3>Пунктуальность</h3>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-            </li>
-            <li>
-                <h3>Планирование</h3>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            </li>
-            <li>
-                <h3>Современные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-            <li>
-                <img src="./imeges/develop1.jpg" alt="develop1" width="370">
-            </li>
-            <li>
-                <img src="./imeges/develop2.jpg" alt="develop2" width="370">
-            </li>
-            <li>
-                <img src="./imeges/develop3.jpg" alt="develop3" width="370">
-            </li>
-        </ul>
-    </section>
-    <!--Секция команды-->
-    <section>
-        <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img src="./imeges/employee1.jpg" alt="employee1" width="270">
-                <h3>Игорь Демьяненко</h3>
-                <p>Product Designer</p>
-            </li>
-            <li>
-                <img src="./imeges/employee2.jpg" alt="employee2" width="270">
-                <h3>Ольга Репина</h3>
-                <p>Frontend Developer</p>
-            </li>
-            <li>
-                <img src="./imeges/employee3.jpg" alt="employee3" width="270">
-                <h3>Николай Тарасов</h3>
-                <p>Marketing</p>
-            </li>
-            <li>
-                <img src="./imeges/employee4.jpg" alt="employee4" width="270">
-                <h3>Михаил Ермаков</h3>
-                <p>UI Designer</p>
-            </li>
-        </ul>
-    </section>
+   <div>
+       <img src="./imeges-portfolio/veb-link.jpg" width="370" alt="Технокряк">
+       <h2>Технокряк</h2>
+       <p>Веб-сайт</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/poster-new-orlean-vs-golden-star.jpg" width="370" alt="Постер New Orlean vs Golden Star">
+       <h2>Постер New Orlean vs Golden Star</h2>
+       <p>Дизайн</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/seafood-restaurant.jpg" width="370" alt="Ресторан Seafood">
+       <h2>Ресторан Seafood</h2>
+       <p>Приложение</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/prime-project.jpg" width="370" alt="Проект Prime">
+       <h2>Проект Prime</h2>
+       <p>Маркетинг</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/project-boxes.jpg" width="370" alt="Проект Boxes">
+       <h2>Проект Boxes</h2>
+       <p>Приложение</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/inspiration-has-no-borders.jpg" width="370" alt="Inspiration has no Borders">
+       <h2>Inspiration has no Borders</h2>
+       <p>Веб-сайт</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/limited-edition.jpg" width="370" alt="Издание Limited Edition">
+       <h2>Издание Limited Edition</h2>
+       <p>Дизайн</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/prodject-lab.jpg" width="370" alt="Проект LAB">
+       <h2>Проект LAB</h2>
+       <p>Маркетинг</p>
+   </div>
+   <div>
+       <img src="./imeges-portfolio/growing-business.jpg" width="370" alt="Growing Business">
+       <h2>Growing Business</h2>
+       <p>Приложение</p>
+   </div>
 </main>   
     <!--Подвал сайта-->
 <footer>
-    <a href="/">WebStudio</a >
+    <a class="web-nav" href="/">Web<span class="studio-nav">Studio</span></a >
     <address>
-    <ul class="address-footer">
+    <ul  class="footer-address">
         <li>
             <a href="https://goo.gl/maps/7n5ivLZafYZ2Yxqt9">г. Киев, пр-т Леси Украинки, 26</a>
         </li>
