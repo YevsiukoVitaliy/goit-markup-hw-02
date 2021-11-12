@@ -122,7 +122,7 @@ ul {
 .title-command {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.19px;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--main-color);
@@ -186,10 +186,15 @@ ul {
 }
 .maps-footer {
 	color: var(--footer-text-color);
+
 }
 .address-mt {
 	color: #ffffff60;
 }
 .studio-footer {
 	color: var(--footer-text-color);
+}
+.link-footer{
+	font-style: normal;
+	letter-spacing: 0.03em;
 }
